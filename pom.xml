@@ -52,13 +52,13 @@
 			<artifactId>jquery</artifactId>
 			<version>2.1.4</version>
 		</dependency>
-		
+
 		<!-- Logging Dependencies -->
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
 		</dependency>
-		
+
 		<!-- Emails -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -75,9 +75,28 @@
 		<dependency>
 			<groupId>org.thymeleaf.extras</groupId>
 			<artifactId>thymeleaf-extras-springsecurity4</artifactId>
-			<version>2.1.2.RELEASE</version>
 		</dependency>
-	
+
+		<!-- Spring h2 -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+		</dependency>
+
+		<!-- Spring data JPA -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+
 
 	</dependencies>
 
