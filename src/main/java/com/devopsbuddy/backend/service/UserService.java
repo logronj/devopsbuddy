@@ -32,7 +32,7 @@ public class UserService {
     @Transactional
     public User createUser(User user, PlansEnum plansEnum, Set<UserRole> userRoles) {
 
-        Plan plan = new Plan(plansEnum);
+    	Plan plan = new Plan(plansEnum);
         // It makes sure the plans exist in the database
         if (!planRepository.exists(plansEnum.getId())) {
             plan = planRepository.save(plan);
